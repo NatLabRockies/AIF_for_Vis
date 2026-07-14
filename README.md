@@ -2,8 +2,7 @@
 
 Code and precomputed results accompanying:
 
-**Harrison J. Goldwyn, Graham Johnson, Christopher Ibarra, Lace Padilla, and Kenny Gruchalla**  
-*Beyond the Post Hoc User Study: Modeling Visual Decision-Making with Active Inference*
+*paper in review*
 
 ## Overview
 
@@ -308,7 +307,6 @@ These outputs can, in principle, be compared with behavioral, response-time, and
 
 Please cite the associated paper when using this code or its results:
 
-> Harrison J. Goldwyn, Graham Johnson, Christopher Ibarra, Lace Padilla, and Kenny Gruchalla.  
-> **Beyond the Post Hoc User Study: Modeling Visual Decision-Making with Active Inference.**
+*paper in review*
 
 The final publication citation and DOI will be added here when available.
