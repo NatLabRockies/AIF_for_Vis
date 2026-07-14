@@ -1,4 +1,4 @@
-# Beyond the Post Hoc User Study: Modeling Visual Decision-Making with Active Inference
+# Active Inference for simulating human interpretation of data visualization 
 
 Code and precomputed results accompanying:
 
