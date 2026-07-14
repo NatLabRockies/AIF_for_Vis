@@ -1,0 +1,96 @@
+{
+  "common": {
+    "n_ticks": 4,
+    "height_step": 0.1,
+    "policy_len": 4,
+    "gamma": 8.0,
+    "policy_eval_mode": "rollout",
+    "info_gain_target": "report",
+    "report_action_instant": true,
+    "mem_retention": 0.97,
+    "mem_forget": 0.005,
+    "mem_sigma": 5.0,
+    "non_report_cost": 0.35,
+    "segment_sigma": 0.045,
+    "course_tick_anchor_bias": 0.0,
+    "segment_tick_anchor_bias": 0.0,
+    "use_log_prefs": false,
+    "force_report_at_deadline": true,
+    "forced_report_rule": "map",
+    "action_selection": "deterministic"
+  },
+  "fast_only": {
+    "T": 7,
+    "pair_obs_sigma": 0.22,
+    "urgency_slope": 0.05
+  },
+  "slow_only": {
+    "T": 10,
+    "bar_obs_sigma": 0.0,
+    "urgency_slope": 0.05
+  },
+  "sweep": {
+    "sweep_param": "segment_tick_anchor_bias",
+    "sweep_values": [
+      0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ]
+  },
+  "sampling": {
+    "sampling_mode": "natural_unordered_stratified_random",
+    "random_seed": 7,
+    "random_n_pairs": 10,
+    "n_pairs": 10,
+    "target_pair_proportions": {
+      "on_on": 0.1,
+      "on_off": 0.3,
+      "off_off": 0.6
+    },
+    "target_pair_counts": {
+      "on_on": 1,
+      "on_off": 3,
+      "off_off": 6
+    },
+    "n_on_tick_heights": 4,
+    "n_off_tick_heights": 27,
+    "sampled_pair_counts": {
+      "on_on": 1,
+      "on_off": 3,
+      "off_off": 6
+    }
+  },
+  "base_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seed_stride": null,
+  "parallel": true,
+  "max_workers": null,
+  "chunksize": 16
+}
