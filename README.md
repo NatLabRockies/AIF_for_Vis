@@ -2,7 +2,7 @@
 
 Code and precomputed results accompanying:
 
-*paper in review*
+[Beyond the Post Hoc User Study: Modeling Visual Decision-Making with Active Inference](https://arxiv.org/abs/2607.25131)
 
 ## Overview
 
